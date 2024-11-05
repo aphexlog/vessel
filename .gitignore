@@ -10,3 +10,9 @@ __pycache__
 cdk.out
 .aider*
 .env
+
+# Rust specific ignores
+/target/
+**/*.rs.bk
+Cargo.lock
+.cargo-ok
